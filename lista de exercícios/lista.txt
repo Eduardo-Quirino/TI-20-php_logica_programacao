@@ -1,0 +1,24 @@
+Todos os exercícios deverão ter integração com o usuário, através do html (formulário).
+
+
+
+lista_ex1.php) - lista_ex1.html
+Ler um valor e escrever se é positivo ou negativo (considere o valor zero como positivo).
+------------------------------------
+lista_ex custo total da compra2.php) - lista_ex2.html
+As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem compradas pelo menos 12. Escreva um programa que leia o número de maçãs compradas, calcule e escreva o.
+------------------------------------
+lista_ex3.php) - lista_ex3.html
+Crie duas variáveis de memória e atribua valores a elas e exiba qual variável contém o maior valor.
+------------------------------------
+lista_ex4.php) - lista_ex4.html
+Faça um algoritmo para ler: número da conta do cliente, saldo, débito e crédito. Após, calcular e escrever o saldo atual (saldo atual = saldo - débito + crédito). Também testar se saldo atual for maior ou igual a zero escrever a mensagem 'Saldo Positivo', senão escrever a mensagem 'Saldo Negativo'.
+------------------------------------
+lista_ex5.php)- lista_ex5.html
+Faça um algoritmo onde tenha uma variável de memória para armazenar a descrição do produto (nome), outra para armazenar a quantidade adquirida e outra para armazenar o preço unitário. Calcular e imprimir o total (total = quantidade adquirida * preço unitário), o desconto e o total a pagar (total a pagar = total - desconto), sabendo-se que:
+- Se quantidade <= 5 o desconto será de 2%
+- Se quantidade > 5 e quantidade <=10 o desconto será de 3%
+- Se quantidade > 10 o desconto será de 5%
+==========================================
+nº ifs = nº saídas -1 = 3 -1 = 2 ifs - encadeados
+Nas respostas utilizar interpolação echo ("....$nome ....")

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Venda de produtos</h2>
+    <form action="lista_ex5.php" method="post">
+        <label for="">Nome produto</label>
+        <input type="text" name="nome" maxlength="90" size="50" autofocus required>
+        <br><br>
+        <label for="">Quantidade</label>
+        <input type="number" name="qtd" min="1" required>
+        <br><br>
+        <label for="">Preço unitário</label>
+        <input type="text" name="preco" required>
+        <br><br>
+        <input type="submit" value="Vender" title="Efetua a venda!">
+        <input type="reset" value="Limpar" title="Apaga informações digitadas!">
+    </form>
+</body>
+</html>
