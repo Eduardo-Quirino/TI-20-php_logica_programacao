@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <title>Exercício 4</title>
+    <title>Estrutura de repetição</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Icone -->
-<link rel="shortcut icon" href="../_icon/esboco-do-doodle-do-computador.png" type="image/x-icon">
+
+    <link rel="shortcut icon" href="../_icon/esboco-do-doodle-do-computador.png" type="image/x-icon">
     <!-- Meu CSS -->
     <link rel="stylesheet" href="../_css/estilo.css">
     <!-- Bootstrap CSS -->
@@ -14,32 +14,28 @@
   </head>
   <body>
       
-<div>
-  <h1>Controle Conta Corrente</h1>
-<!-- Inicio formulário -->
-    <form action="lista_ex4.php" method="post">
-      <label for="">Nº conta</label>
-      <input type="text" name="numeroconta" id="" />
-      <br /><br />
-
-      <label for="">Saldo anterior</label>
-      <input type="text" name="saldoanterior" id="" />
-      <br /><br />
-
-      <label for="">Crédito</label>
-      <input type="text" name="credito" id="" />
-      <br /><br />
-
-      <label for="">Débito</label>
-      <input type="text" name="debito" id="" />
-      <br /><br />
-
-      <input class="btn" type="submit" value="Calcular" />
-      <input class="btn" type="reset" value="Limpar" />
-    </form>
-    <!-- Fim formulário -->
-
-</div>
+    <div>
+      <h1>Estrutura de Repetição</h1>
+      <!-- inicio formulário -->
+      <form action="ex8.php">
+        <!-- padrão (default) - get -->
+        <label for="">Informe uma palavra para repetir</label>
+        <input type="text" name="palavra" autofocus required />
+        <br />
+        <label for="">Informe o nº de repetições</label>
+        <input type="number" name="repeticoes" min="1" required />
+        <br><br>
+        <input
+        class="btn"
+          type="submit"
+          value="Enviar"
+          title="Envia dados para processamento"
+        />
+       
+        <input class="btn" type="reset" value="Apagar" title="Apaga dados digitados" />
+      </form>
+      <!-- fim formulário -->
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

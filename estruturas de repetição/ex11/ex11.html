@@ -1,13 +1,12 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <title>Exercício 4</title>
+    <title>Função</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Icone -->
-<link rel="shortcut icon" href="../_icon/esboco-do-doodle-do-computador.png" type="image/x-icon">
-    <!-- Meu CSS -->
+
+    <!--Meu CSS  -->
     <link rel="stylesheet" href="../_css/estilo.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -15,30 +14,25 @@
   <body>
       
 <div>
-  <h1>Controle Conta Corrente</h1>
-<!-- Inicio formulário -->
-    <form action="lista_ex4.php" method="post">
-      <label for="">Nº conta</label>
-      <input type="text" name="numeroconta" id="" />
-      <br /><br />
-
-      <label for="">Saldo anterior</label>
-      <input type="text" name="saldoanterior" id="" />
-      <br /><br />
-
-      <label for="">Crédito</label>
-      <input type="text" name="credito" id="" />
-      <br /><br />
-
-      <label for="">Débito</label>
-      <input type="text" name="debito" id="" />
-      <br /><br />
-
-      <input class="btn" type="submit" value="Calcular" />
-      <input class="btn" type="reset" value="Limpar" />
+     <h1>Trabalhando com funções no PHP</h1>
+    <form action="ex11.php">
+        <label for="">Número 1</label>
+        <input type="number" name="n1">
+        <br><br>
+        <label for="">Número 2</label>
+        <input type="number" name="n2">
+        <br><br>
+        <select name="operacao" id="">
+            <option value="" selected disabled>Informar a operação</option>
+            <option value="+">Soma</option>
+            <option value="-">Subtração</option>
+            <option value="*">Multiplicação</option>
+            <option value="/">Divisão</option>
+            <option value="^">Exponenciação</option>
+        </select>
+        <br><br>
+        <input class="btn" type="submit" value="Calcular">
     </form>
-    <!-- Fim formulário -->
-
 </div>
 
     <!-- Optional JavaScript -->

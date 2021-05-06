@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Equação do 2° Grau</title>
+    <title>Tabuada</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+
+    <!-- icone -->
+    <link
+      rel="shortcut icon"
+      href="../_icon/esboco-do-doodle-do-computador.png"
+      type="image/x-icon"
+    />
+
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="../_css/estilo.css" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -18,17 +28,16 @@
     />
   </head>
   <body>
-      <!-- Inicio formulário -->
-   <form action="ex7.php" method="get">
-        <!-- method: get - $_GET[]  informação enviada pode ser visualizada-->
-        <!-- method: post - $_POST[] -->
-        <h1>Equação do 2ºGrau</h1>
-        <p><input type="text" name="a" placeholder="Informe a"></p>
-        <p><input type="text" name="b" placeholder="Informe b"></p>
-        <p><input type="text" name="c" placeholder="Informe c"></p>
-        <p><input type="submit" value="Enviar"></p>
-    </form>
-<!-- Fim do formulário -->
+    <div>
+      <h1>Tabuada</h1>
+      <form action="ex9.php">
+        <label for="">Informe um número</label>
+        <input type="number" name="num" min="1" max="10"size="40"autofocus required/>
+      <br><br><br>
+      <!-- novo btn -->
+        <input class="btn" type="submit" value="Calcular" />
+      </form>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
